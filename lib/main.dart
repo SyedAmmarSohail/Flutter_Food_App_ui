@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-        systemNavigationBarIconBrightness: Brightness.dark));
+        systemNavigationBarIconBrightness: Brightness.dark,
+    statusBarColor: Colors.white));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'native_updater example',
@@ -35,7 +36,6 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-
         brightness: Brightness.light,
         elevation: 0,
         actions: [
