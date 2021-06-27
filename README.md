@@ -1,6 +1,6 @@
 # Flutter Food Home UI
  <a href="https://flutter.io">
-    <img src="https://img.shields.io/badge/Platform-Flutter-yellow.svg"
+    <img src="https://img.shields.io/badge/Platform-Flutter-green.svg"
       alt="Platform" />
   </a>
 
