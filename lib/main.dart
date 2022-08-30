@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'native_updater example',
-      theme: ThemeData(brightness: Brightness.light, fontFamily: 'DynaPuff'),
+      theme: ThemeData(brightness: Brightness.light, fontFamily: 'DynaPuff', scaffoldBackgroundColor: Colors.white),
       home: Home(),
     );
   }

@@ -20,7 +20,6 @@ class HomeScreen extends StatelessWidget {
         children: [
           Container(
             padding: EdgeInsets.symmetric(horizontal: 15.0),
-            color: Colors.white,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
