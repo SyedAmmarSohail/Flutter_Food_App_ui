@@ -12,7 +12,7 @@ class PopularListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(right: 20),
+      padding: EdgeInsets.symmetric(horizontal: 8),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
@@ -40,7 +40,7 @@ class PopularListTile extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Text(item['name'],
-                    style: kLabelMediumTextStyle.copyWith(
+                    style: kLabelBelowMediumTextStyle.copyWith(
                         fontWeight: FontWeight.bold)),
               ],
             ),

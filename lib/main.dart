@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
         systemNavigationBarIconBrightness: Brightness.dark,
-    statusBarColor: Colors.white));
+        statusBarColor: Colors.white));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'native_updater example',
-      theme: ThemeData(brightness: Brightness.light),
+      theme: ThemeData(brightness: Brightness.light, fontFamily: 'DynaPuff'),
       home: Home(),
     );
   }
@@ -39,10 +39,12 @@ class _HomeState extends State<Home> {
         brightness: Brightness.light,
         elevation: 0,
         actions: [
-          IconButton(icon: Icon(Icons.shopping_cart_outlined, color: ColorConstant.hintColor))
+          IconButton(
+              icon: Icon(Icons.shopping_cart_outlined,
+                  color: ColorConstant.hintColor))
         ],
         title: Text(
-          'Good Morning Akila',
+          'Good Morning, Ammar',
           style: kLabelMediumTextStyle.copyWith(fontWeight: FontWeight.bold),
         ),
         automaticallyImplyLeading: false,

@@ -38,8 +38,12 @@ const sizedBoxHeight30 = SizedBox(
 
 var kLabelSmallTextStyle =
     TextStyle(fontSize: 12.0, color: ColorConstant.blackTextColor);
+var kLabelBelowMediumTextStyle =
+    TextStyle(fontSize: 14.0, color: ColorConstant.blackTextColor);
 var kLabelMediumTextStyle =
     TextStyle(fontSize: 18.0, color: ColorConstant.blackTextColor);
+var kLabelAboveMediumTextStyle =
+    TextStyle(fontSize: 20.0, color: ColorConstant.blackTextColor);
 var kLabelLargeTextStyle = TextStyle(
   fontSize: 24.0,
   color: ColorConstant.blackTextColor,

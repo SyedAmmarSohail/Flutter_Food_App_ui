@@ -40,7 +40,7 @@ class RestrauntsListTile extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Text(item['name'],
-                    style: kLabelMediumTextStyle.copyWith(
+                    style: kLabelBelowMediumTextStyle.copyWith(
                         fontWeight: FontWeight.bold)),
               ],
             ),

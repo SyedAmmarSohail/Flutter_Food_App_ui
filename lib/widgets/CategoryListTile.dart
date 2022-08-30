@@ -13,7 +13,7 @@ class CategoryListTile extends StatelessWidget {
       onTap: onPressed,
       onLongPress: onLongPressed,
       child: Container(
-        margin: const EdgeInsets.only(right: 35.0),
+        margin: const EdgeInsets.symmetric(horizontal: 7.0),
         child: Column(
           children: <Widget>[
             Container(
@@ -41,7 +41,7 @@ class CategoryListTile extends StatelessWidget {
             Text(
               item['name'],
               style:
-                  kLabelMediumTextStyle.copyWith(fontWeight: FontWeight.bold),
+              kLabelSmallTextStyle.copyWith(fontWeight: FontWeight.bold),
             ),
           ],
         ),

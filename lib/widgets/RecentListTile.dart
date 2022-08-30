@@ -49,7 +49,7 @@ class RecentListTile extends StatelessWidget {
               children: [
                 Text(
                   item['name'],
-                  style: kLabelMediumTextStyle.copyWith(
+                  style: kLabelBelowMediumTextStyle.copyWith(
                       fontWeight: FontWeight.bold),
                 ),
                 sizedBoxHeight5,
